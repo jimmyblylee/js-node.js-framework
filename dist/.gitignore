@@ -1,0 +1,45 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+!**/src/setup/common/tomcat/lib/*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IDE generated files
+.settings
+.project
+.classpath
+.idea
+*.iml
+
+# Maven generated files
+target
+
+# Others
+rebel.xml
+*.bak
+*.log
+*.epoch
+*.lck
+
+# node.js
+**/node_modules
+package-lock.json
+
+
+# Workspace
+**/main/dev
+**/files/download
+**/workspace/run
+**/setup/temp
+**/src/dev
+**/workspace
+
+resources

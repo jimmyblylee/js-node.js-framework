@@ -1,0 +1,17 @@
+.large-screen {
+    .header {
+        margin-top: 30px;
+        margin-left: 42px;
+        height: array-get($ls-config-header, header, height);
+        position: relative;
+        background-color: black;
+
+        .title {
+            font-family: fzzyjw;
+            font-size: 48px;
+            color: #FFF;
+            width: 100%;
+            line-height: array-get($ls-config-header, header, height);
+        }
+    }
+}
